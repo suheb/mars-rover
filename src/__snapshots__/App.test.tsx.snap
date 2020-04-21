@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-direction-xs-column MuiGrid-align-content-xs-center MuiGrid-justify-xs-flex-end"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-4"
+    >
+      <fieldset
+        class="MuiFormControl-root MuiFormControl-fullWidth"
+      >
+        <label
+          class="MuiFormLabel-root Mui-required"
+        >
+          Input
+          <span
+            class="MuiFormLabel-asterisk"
+          >
+             *
+          </span>
+        </label>
+        <textarea
+          aria-label="input"
+          placeholder="5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM"
+          rows="5"
+          style="min-width: 400px; height: -4px; overflow: hidden;"
+        />
+        <textarea
+          aria-hidden="true"
+          readonly=""
+          style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); min-width: 400px;"
+          tabindex="-1"
+        />
+      </fieldset>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-1"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Submit
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
